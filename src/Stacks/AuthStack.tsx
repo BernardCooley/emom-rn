@@ -1,8 +1,6 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { AuthParamList, AuthNavProps } from '../Params/AuthParamList';
-import { Center } from '../Center';
-import { Text, Button } from 'react-native';
 import { Login } from '../Components/Auth/Login';
 import { Register } from '../Components/Auth/Register';
 

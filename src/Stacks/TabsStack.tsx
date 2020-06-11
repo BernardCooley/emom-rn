@@ -5,6 +5,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import Account from '../Components/App/Account';
 import Music from '../Components/App/Music';
 import Upload from '../Components/App/Upload';
+import Colors from '../StyledComponents/Colors';
 
 interface AppTabsProps {
 
@@ -32,7 +33,7 @@ export const AppTabs: React.FC<AppTabsProps> = ({ }) => {
                 },
             })}
             tabBarOptions={{
-                activeTintColor: 'rgb(0, 158, 152)',
+                activeTintColor: Colors.primary,
                 inactiveTintColor: 'gray',
                 activeBackgroundColor: 'lightgray'
             }}
@@ -40,6 +41,6 @@ export const AppTabs: React.FC<AppTabsProps> = ({ }) => {
             <Tabs.Screen name='Music' component={Music}></Tabs.Screen>
             <Tabs.Screen name='Upload' component={Upload}></Tabs.Screen>
             <Tabs.Screen name='Account' component={Account}></Tabs.Screen>
-        </Tabs.Navigator>
+        </Tabs.Navigator >
     );
 };

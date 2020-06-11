@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../../Providers/AuthProvider';
-import { Center } from '../../Center';
+import { Center } from '../../StyledComponents/Center';
 import { Text, Button } from 'react-native';
 import { AuthNavProps } from '../../Params/AuthParamList';
 
